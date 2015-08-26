@@ -1,4 +1,5 @@
-# numpy_euroscipy2015
+# Never get in a data battle without Numpy arrays
+
 Material for the training on Numpy presented at EuroScipy 2015
 
 ## Abstract
