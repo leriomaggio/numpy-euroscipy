@@ -49,7 +49,7 @@ during the training:
 * numpy 1.9+
 * scipy 0.14+
 * scikit-learn 0.15+
-* pandas 0.8+
+* numexpr: 2.4.+
 
 
 ## Target Audience
