@@ -32,7 +32,7 @@ On the one hand, NumPy code tends to be much cleaner (and faster) than
 Moreover, the underlying algorithms have 
 been designed with high performance in mind.
 
-This training is be organised in two parts: the first part is 
+This training is organised in two parts: the first part is 
 intended to provide most of the essential concepts 
 needed to become confident with NumPy data structures and functions.
 
