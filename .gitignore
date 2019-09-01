@@ -1,1 +1,3 @@
-sol_021.py
+.ipynb_checkpoints/*
+*.pyc
+
