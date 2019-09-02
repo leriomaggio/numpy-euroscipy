@@ -16,7 +16,7 @@ to become confident with `numpy` and `ndarray` in (a matter of) `90 mins`.
 
 # Outline
 
-**11:00 - 11:30** (_30 mins_) Numpy Basics
+**Part I** Numpy Basics
 
 - Introduction to NumPy Arrays
     - numpy internals schematics
@@ -25,24 +25,23 @@ to become confident with `numpy` and `ndarray` in (a matter of) `90 mins`.
     - Record Array
     
     
-**11:30 - 12:00** (_30 mins_) Indexing and Slicing
+**Part II** Indexing and Slicing
     
 - Indexing numpy arrays
     - fancy indexing
-    - memory management
-    - broadcasting
-    
+    - array masking
 - Slicing & Stacking
-- Vectorization
+- Vectorization & Broadcasting
 
-**12:00 - 12:20** (_20 mins_) Bits of Data Science with NumPy
+**Part III** "Advanced NumPy"
 
 - Serialisation & I/O
     - `.mat` files
 - Array and Matrix
     - Matlab compatibility
 - Memmap 
-- Beyond Numpy
+- Bits of Data Science with NumPy
+- NumPy beyond `numpy`
 
 ### Python version
 
