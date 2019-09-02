@@ -1,62 +1,53 @@
-# Never get in a data battle without Numpy arrays
+# Never get in battle of bits without ammunitions
 
-Material for the training on Numpy presented at EuroScipy 2015
+**Title Credits**: Gentle reference to homonymous [talk](https://pyvideo.org/europython-2013/never-get-in-a-battle-of-bits-without-ammunition.html) presented at 
+**EuroPython 2013** in Florence by my friend **riko** (_a.k.a._ Enrico Franchi ).
 
 ## Abstract
 
-The `numpy` package takes a central role in 
-Python data science code. This is mainly 
-because numpy code has been designed with
-high performance in mind. This tutorial
-will provide the most essential concepts
-to become confident with `numpy` and `ndarray`s.
-Then some concrete examples of applications
-where numpy takes a central role, will 
-be presented as well.
+The `numpy` package takes a central role in Python scientific ecosystem. 
+This is mainly because `numpy` code has been designed with
+high performance in mind. 
 
-## Description
+This tutorial will provide materials for the most essential concepts
+to become confident with `numpy` and `ndarray` in (a matter of) `90 mins`.
 
-It is very hard to be a scientist without knowing how to write code, 
-and nowadays **Python** is probably the language of choice in many research fields.
-This is mainly because the Python ecosystem includes a lot of tools and libraries 
-for many research tasks:  `pandas` for *data analysis* , 
-`networkx` for *social network analysis*, 
-`scikit-learn` for *machine learning*, and so on.
+# Outline
 
-Most of these libraries relies (or are built on top of) `numpy`.
-Therefore, `numpy` is a crucial component of the common Python
-stack used for numerical analysis and data science.
+**11:00 - 11:30** (_30 mins_) Numpy Basics
 
-On the one hand, NumPy code tends to be much cleaner (and faster) than 
-"straight" Python code that tries to accomplish the same task. 
-Moreover, the underlying algorithms have 
-been designed with high performance in mind.
+- Introduction to NumPy Arrays
+    - numpy internals schematics
+    - Reshaping and Resizing
+- Numerical Data Types
+    - Record Array
+    
+    
+**11:30 - 12:00** (_30 mins_) Indexing and Slicing
+    
+- Indexing numpy arrays
+    - fancy indexing
+    - memory management
+    - broadcasting
+    
+- Slicing & Stacking
+- Vectorization
 
-This training is organised in two parts: the first part is 
-intended to provide most of the essential concepts 
-needed to become confident with NumPy data structures and functions.
+**12:00 - 12:20** (_20 mins_) Bits of Data Science with NumPy
 
-In the second part, some examples of data analysis libraries and code
-will be presented, where NumPy takes a central role.
+- Serialisation & I/O
+    - `.mat` files
+- Array and Matrix
+    - Matlab compatibility
+- Memmap 
+- Beyond Numpy
 
-Here is a list of software used to develop and test the code examples presented
-during the training:
+### Python version
 
-* Python 3.x (2.x would work as well)
-* iPython 2.3+ (with **notebook support**) or Jupyter: 
-    * `pip install ipython[notebook]` (OR)
-    * `pip install jupyter`
-* numpy 1.9+
-* scipy 0.14+
-* scikit-learn 0.15+
-* numexpr: 2.4.+
+The minimum recommended version of Python to use for this tutorial is **Python 3.5**, although 
+Python 2.7 should be fine, as well as previous versions of Python 3. 
 
-
-## Target Audience
-
-The training is meant to be mostly introductory, thus it is perfectly suited
-for **beginners**. However, a good proficiency in Python programming is (at least)
-required.
+Py3.5+ is recommended due to a reference to the `@` operator in the linear algebra notebook.
 
 ## License and Sharing Material
 
