@@ -1,6 +1,8 @@
 # Never get in battle of bits without ammunitions
 
-**Title Credits**: Gentle reference to homonymous [talk](https://pyvideo.org/europython-2013/never-get-in-a-battle-of-bits-without-ammunition.html) presented at 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/leriomaggio/numpy-euroscipy/master)
+
+**Title Credits**: Gentle reference to the homonymous [talk](https://pyvideo.org/europython-2013/never-get-in-a-battle-of-bits-without-ammunition.html) presented at 
 **EuroPython 2013** in Florence by my friend **riko** (_a.k.a._ Enrico Franchi ).
 
 ## Abstract
