@@ -2,7 +2,7 @@ ipykernel==5.1.2
 jupyter-client==5.3.1
 jupyter-console==6.0.0
 jupyter-core==4.4.0
-notebook==6.4.1
+notebook==6.4.12
 numpy==1.22.0
 # requirements for the "advanced" part
 scipy==1.3.1
